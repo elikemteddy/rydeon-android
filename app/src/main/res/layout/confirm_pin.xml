@@ -18,7 +18,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="A verification code has been sent to +2333553. Enter code to confirm registration"
             android:layout_gravity="center"
             android:gravity="center"
             android:layout_margin="15dp"
@@ -48,7 +47,7 @@
             app:lb_btnDisabledColor="@color/light_gray"
             app:lb_disabledTextColor="@color/gray"
             app:lb_btnText="@string/verify"
-            app:lb_btnColor="@color/colorAccent"
+            app:lb_btnColor="@color/colorPrimary2"
             android:layout_marginTop="30dp"
             android:layout_below="@+id/verifyCodeView"
 
@@ -58,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
-            android:text="Change phone number"
+            android:text="@string/change_phone_number"
             android:textColor="@color/white"
             android:layout_marginTop="50dp"
             android:layout_below="@+id/btn_verify"/>
@@ -68,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
-            android:text="resend code"
+            android:text="@string/resend_code"
             android:textColor="@color/white"
             android:layout_marginTop="20dp"
             android:layout_below="@id/btn_change_number"/>
